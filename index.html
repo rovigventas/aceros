@@ -344,7 +344,7 @@
                                  <td class="tdNoVis" style="padding-top:10px;padding-bottom:10px;padding-right:0;padding-left:0;text-align:left;background:#c1c1c1;background-image:none;background-repeat:repeat;background-position:top left;background-attachment:scroll;">
                                     <p class="noVisualizar" style="Margin:0;color:#343434;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;padding-top:0px;padding-bottom:0px;padding-right:0px;padding-left:0px;text-align:center;">
                                        Si no puedes visualizar este correo, <a class="clicAqui"
-                                          href=https://rovigventas.github.io/acerosrovig/indexPalasWeb.html?&utm_term=*|EMAIL|*"
+                                          href=https://rovigventas.github.io/acerosrovig/indexPalasWeb.html?&utm_term={{ contact.EMAIL }}"
                                           target="_blank"
                                           style="color:#343434;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;text-align:center;text-decoration:underline;">da
                                           clic aquí</a>.
@@ -388,7 +388,6 @@
                            </table>
                         </td>
                      </tr>
-                     <!--pasos 1,2,3 -->
                      <tr>
                         <td bgcolor="#ffffff" class="corpBtns"
                            style="color:#262625;padding-top:20px;padding-bottom:0;padding-right:0;padding-left:0px;">
@@ -508,15 +507,13 @@
                                            69.00
                                         </td>
                                      </tr>
-                                     <tr height="20">
-                                        <td height="20">
+                                     <tr height="20" bgcolor="#CD1336">
+                                        <td height="20" style="border-color: #CD1336">
                                         </td>
-                                        <td>
+                                        <td colspan="2" style="border-color: #CD1336;color:#EEF1F4">
                                            PALA PUÑO DE PLASTICO Y
                                         </td>
-                                        <td>
-                                        </td>
-                                        <td width="248">
+                                        <td width="248" style="border-color: #CD1336">
                                         </td>
                                      </tr>
                                      <tr height="20">
@@ -762,7 +759,9 @@
                                  <td align="center" style="font-size:9px; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; color:#5b5b5b; line-height:14px; padding:10px 25px 0px 25px;">
                                     <p>
                                        <b>Este mensaje fue enviado a <a href="#" id="sendTo"
-                                             style="color:#262625; font-size:9px; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; text-decoration:none;">*|EMAIL|*</a>
+                                             style="color:#262625; font-size:9px;
+                                             font-family:Verdana,Geneva,Arial,Helvetica,sans-serif;
+                                             text-decoration:none;">{{ contact.EMAIL }}</a>
                                           por Aceros Rovig.</b>
                                     </p>
                                  </td>
